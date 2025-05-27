@@ -53,7 +53,7 @@ button:focus-visible {
  text-align: center;
  font-size: 90px;
  padding: 0;
- 
+ color: aqua;
 }
 .App {
   display: grid;

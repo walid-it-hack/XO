@@ -30,6 +30,7 @@ function App() {
       return
   const newdata=data.slice()
   newdata[idx]=test?"X":"O"
+  
   const d=document.getElementsByClassName("status")
   d[0].innerHTML=test?"Now Player O":"Now Player X"
   let s=0
